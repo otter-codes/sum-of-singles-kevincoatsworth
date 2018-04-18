@@ -1,6 +1,6 @@
 object SumOfSingles extends App {
 
-  def singleNumCalculator(numbers: List[Int]): Int = {
+  def singleNumCalculator(numbers: Array[Int]): Int = {
 
     val duplicatedNumbers = numbers.diff(numbers.distinct).distinct
 
